@@ -1,0 +1,217 @@
+.portfolio-sections{
+    width: 65%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.first-section{
+    display: flex;
+    align-items: center;
+}
+.nav-links a:hover{
+    color: blue;
+}
+.profile-image img{
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.9);
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.connect-me-links{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+.connect-me-links a{
+    color: blue;
+}
+.connect-me-links a:hover{
+    color: rgb(13, 238, 13);
+    transform: scale(1.1);
+}
+
+.connect-me-links a:hover{
+    transform: scale(1.1);
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.resume-download a{
+    color: blue;
+}
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.project{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    border: 2px solid rgb(234, 231, 231);
+    border-radius: 10px;
+}
+.project-information{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.resume-download a:hover{
+    color: rgb(13, 238, 13);
+}
+.project-information a{
+    color: blue;
+}
+.project-information a:hover{
+    color: rgb(13, 238, 13);
+}
+.project-information button a{
+    color: white;
+}
+.project-information button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(10, 10, 129);
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.project-information button:hover{
+    background-color: rgb(5, 5, 66);
+}
+.project-image img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+.contact-section{
+    display: flex;
+}
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+.connect-links{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+.connect-links a{
+    color: blue;
+}
+.connect-links a:hover{
+    color: rgb(13, 238, 13);
+    transform: scale(1.1);
+}
+.contact-form{
+    width: 70%;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+form input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(192, 191, 191);
+}
+form button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(10, 10, 129);
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+form button:hover{
+    background-color: rgb(5, 5, 66);
+}
+.tech-stack{
+    display: flex;
+    justify-content: space-between;
+}
+.frontend-tools, .backend-tools, .database-tools, .other-tools{
+    border: 1px solid rgb(137, 136, 136);
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(138, 138, 138);
+}
+.frontend-tools ul, .backend-tools ul, .database-tools ul, .other-tools ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 14px;
+}
+.frontend-tools ul i, .backend-tools ul i, .database-tools ul i, .other-tools ul i{
+    font-size: 25px;
+}
+@media screen and (max-width : 900px) {
+    .portfolio-sections{
+        width: 85%;
+    }
+    .first-section{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .project{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .project-image img{
+        width: 100%;
+    }
+    .contact-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 20px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-links{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .tech-stack{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .frontend-tools, .backend-tools, .database-tools, .other-tools{
+        width: 100%;
+    }
+    
+}
