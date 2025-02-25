@@ -28,7 +28,7 @@ const projects = [
         description:"The E-Book Store is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to explore a collection of e-books, view detailed information, and add books to their cart for easy access. If a PDF version of a book is available, users can read it online directly within the platform. The application features secure user authentication using JWT and provides a smooth, responsive user experience across different devices. This project showcases full-stack development skills with seamless integration of frontend, backend, and database technologies.",
         projectcover:ebookcover,
         images:[ebookstore1, ebookstore2, ebookstore3],
-        videos:[campusvideo1],
+        videos:[ebookvideo1],
         githubLink:'https://github.com/piyushcode56/ebookstore'
         
     },
