@@ -7,6 +7,7 @@ import ebookcover from './assets/ebookcover.png';
 import ebookstore1 from './assets/ebookstore1.png';
 import ebookstore2 from './assets/ebookstore2.png';
 import ebookstore3 from './assets/ebookstore3.png';
+import ebookvideo1 from './assets/ebookvideo.mp4;
 import moviecover from './assets/moviecover.jpg';
 import movie1 from './assets/movie1.png';
 import movie2 from './assets/movie2.png';
